@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+html { background-color:#fff;; }
+
+body { background-color:none; }
+
+h1 { margin-top:50px;}
+
+a { text-decoration:none; }
+
+#main1 { color:red; font-size:30px; margin:10px; width:20%; align:right; padding:10px;
+		 font-family: Cursive, Sans-Serif, Times New Roman; }
+
+#main2 { background-color:rgba(255, 94, 255, 0.05); height:70px;  align:center; width:100% }
+#main2 { display:table; text-align:center; vertical-align:middle; }
+#main3 { display: table-cell; vertical-align: middle; width:40%; font-size:12px;}
+div #main3 a { color: green; margin: 10px; text-decoration:none;}
+
+#main4 { display: table-cell; vertical-align: middle; width:40%;}
+div #main4 a { color: green; margin: 10px; text-decoration:none;}
+
+*{margin:0;padding:0;}
+	ul,li{list-style:none;}
+	#slide{height:700px;position:relative;overflow:hidden;}
+	#slide ul{width:400%;height:100%;transition:1s; margin: 100px;}
+	#slide ul:after{content:"";display:block;clear:both;}
+	#slide li{float:left;width:25%;height:100%;}
+	#slide li:nth-child(1){background:url(MemberView\images\and1.jpg) no-repeat center center fixed;}
+	#slide li:nth-child(2){background:url(MemberView\images\and1.jpg) no-repeat center center fixed;}
+	#slide li:nth-child(3){background:url(MemberView\images\and1.jpg) no-repeat center center fixed;}
+	#slide li:nth-child(4){background:url(MemberView\images\and1.jpg) no-repeat center center fixed;}
+	#slide li:nth-child(5){background:url(MemberView\images\and1.jpg) no-repeat center center fixed;}
+	#slide input{display:none;}
+	#slide label{display:inline-block;vertical-align:middle;width:10px;height:10px;border:2px solid #666;background:#fff;transition:0.3s;border-radius:50%;cursor:pointer;}
+	#slide .pos{text-align:center;position:absolute;bottom:10px;left:0;width:100%;text-align:center;}
+	#pos1:checked~ul{margin-left:0%;}
+	#pos2:checked~ul{margin-left:-100%;}
+	#pos3:checked~ul{margin-left:-200%;}
+	#pos4:checked~ul{margin-left:-300%;}
+	#pos5:checked~ul{margin-left:-400%;}
+	#pos1:checked~.pos>label:nth-child(1){background:#666;}
+	#pos2:checked~.pos>label:nth-child(2){background:#666;}
+	#pos3:checked~.pos>label:nth-child(3){background:#666;}
+	#pos4:checked~.pos>label:nth-child(4){background:#666;}
+	#pos5:checked~.pos>label:nth-child(5){background:#666;}
+
+
+
+#table1 {  width: 1500px;
+    height: 1000px;
+    padding: 50px 200px; 
+    cellspacing: 20px;
+    text-align:left; 
+    border-top: 1px solid #444444;
+    border-collapse: collapse;}
+    
+#table1 th,td { padding:10px; text-align:left; border-bottom: 1px solid #444444;
+    padding: 10px;}
+
+
