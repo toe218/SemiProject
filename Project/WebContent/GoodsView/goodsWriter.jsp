@@ -41,9 +41,9 @@
 	<tr>
     <tr>
     	<td colspan="3" align="center">
-    	<a href="GoodsList.go">[상품목록보기]</a>
+    	<a href="adminMain.tb">[관리자 페이지]</a>
     	<a href="javascript:frm.submit();">[저장]</a> <!-- 그냥 frm.submit()이라고만 쓰면 action이 안됨 -->
-    	<a href="./main.go">[메인으로]</a>
+    	<a href="./main.tb">[메인으로]</a>
     	</td>
     </tr>
     

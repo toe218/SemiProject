@@ -18,7 +18,8 @@
 function deposit(){
 	
 	var totalMoney = <%=qty%>*<%=goodMoney%>; /* 서버 단의 데이터를 클라이언트 단으로 가져오는 방법 */
-	var pay = prompt("금액을 입력해주세요","");
+	var pay = prompt("금액을 입력해주세요. \n\n결제금액 : "+totalMoney ,"");
+	
 	
 	if(totalMoney==pay){ /* var간의 비교는 equals가 아니라 ==으로 */
 	
@@ -62,6 +63,7 @@ function deposit(){
 
 <!-- javascript: 이거 안적어줘도 상관없음 >> 다음에 쓰는게 <script>에 있다는 의미인데, 어짜피 onclick은 function을 찾아가므로 굳이 javascript: 를 적어줄 필요는 없다 -->
 </table>
+<h3 align="center"><a href="./GoodCartList.go">장바구니로 돌아가기</a></h3>
 </form>
 
 

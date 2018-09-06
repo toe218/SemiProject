@@ -44,7 +44,7 @@
 <% }else{ %>
 
 	<h1 align="center"> 상품 목록</h1>&nbsp;&nbsp;&nbsp;&nbsp;
-	<h2 align="center"><a href ="./GoodCartList.go">장바구니로 가기</a></h2>
+	<h2 align="center"><a href ="./login.tb">장바구니로 가기</a></h2>
 	<h2 align="center"><a href ="./main.tb">메인으로</a></h2>
 
 <table align="center">
@@ -53,7 +53,7 @@
 		Goods go = (Goods)goods.get(i);
 	%>	
 		<td>
-			<a href="GoodView.go?goodsNumber=<%=go.getGoodsNumber() %>"><img src="./boardupload/<%=go.getGoodsImage() %>" height="100" width="100" border="0"></a><br>
+			<a href="GoodView.go?goodsNumber=<%=go.getGoodsNumber() %>"><img src="./boardupload/<%=go.getGoodsImage() %>" height="180" width="150" border="0"></a><br>
 			상품명 :<%=  go.getGoodsName()%> <br>가격 : <%= go.getGoodsPrice() %>원  
 		</td>
 		
@@ -75,7 +75,7 @@
 	for(int i =0; i<today.size(); i++){%>
 	
 		<td align="center">
-			<img src="./boardupload/<%=today.get(i)%>" height="200" width="150" border="0">
+			<img src="./boardupload/<%=today.get(i)%>" height="200" width="150">
 		</td>
 <%	if(i==0||i%2!=0){ continue;}
 else{ out.print("</tr><tr>");}
