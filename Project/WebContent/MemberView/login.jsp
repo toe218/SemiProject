@@ -24,7 +24,7 @@ function checkId(){
 </head>
 <body>
 <% if (id == null)  {%>
-	<h1>로그인 페이지</h1>
+	<center><h1>로그인 페이지</h1></center>
 	
 	<center><h3>로그인</h3></center>
 	<form action = "./loginAction.tb" method="post" name ="frm" align="center">

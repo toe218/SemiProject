@@ -57,14 +57,12 @@
 		<td><%= cart.getGoodsPrice() %></td>
 		<td>
 		<a href="./GoodCartQtyUp.go?goodsName=<%=cart.getGoodsName()%>">
-		<img src="./left_btn.png" width="15" height="15" border="0"/>
-		</a>
+		<img src="GoodsView/images/upicon.png" width="15" height="15"></a>
 		<br>
 			<%= cart.getQty() %>
 		<br>
 		<a href="javascript:checkQty('<%=cart.getGoodsName()%>','<%=cart.getQty()%>')">
-		<img src="C:/Users/HKEDU/Desktop/창고/JSP/review/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/2018-08-20/boardupload/jin.jpg" width="15" height="15" border="0"/>
-		</a>
+		<img src="GoodsView/images/downicon.png" width="15" height="15"></a>
 		<br>
 		</td>
 		

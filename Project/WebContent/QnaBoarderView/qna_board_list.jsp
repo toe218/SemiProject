@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" import="java.util.*"%>
 <%@ page import = "model3.DTO.*" %>
+<% String id = (String)session.getAttribute("id"); %>
 <%
 	int nowpage = ((Integer)request.getAttribute("page")).intValue();
 	int maxpage = (Integer)request.getAttribute("maxpage");
@@ -22,6 +23,51 @@
 <title>문의 게시판</title>
 </head>
 <body>
+
+<h1></h1>
+
+
+<div id="main2">
+
+<div id="main4">
+<a href ="./QnaBoardList.bb">문의게시판</a>&nbsp;
+<a href ="./ReviewList.re">후기게시판</a> &nbsp;
+<a href ="./RankingList.ra">랭킹</a>&nbsp;
+<a href ="./GoodsList.go">상품</a>&nbsp;
+<a href ="./search.tb">검색</a> 
+</div>
+
+<div id="main1" align="center"><a href="http://localhost:8080/Project/main.tb">Real Total Beautyshop</a></div>
+
+<div id="main3"> 
+
+<a href ="./mypageMain.tb">마이페이지</a>&nbsp;
+<a href ="./intro.tb">회사소개</a> &nbsp;
+</div>
+</div>
+
+<%
+	if (session.getAttribute("id") != null) {
+%>
+<p align="right"><b><%= id %></b> 님 반갑습니다! &nbsp;&nbsp;
+
+<% if (id!=null && id.equals("admin")) { %>
+
+<a href="./adminMain.tb"> 관리자 페이지 </a> &nbsp;&nbsp;
+
+<%} %>
+
+<a href="logout.tb">로그아웃</a></p>
+
+
+
+<%
+	}
+ %>
+
+
+
+
 <div id="table1">
 <table width=50% border="0" cellpadding="0" cellspacing="0">
 <% if(listcount>0) { %>

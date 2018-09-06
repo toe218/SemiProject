@@ -8,12 +8,13 @@ h1 { margin-top:50px;}
 
 a { text-decoration:none; }
 
-#main1 { color:red; font-size:30px; margin:10px; width:20%; align:right; padding:10px;
-		 font-family: Cursive, Sans-Serif, Times New Roman; }
+#main1 { margin:10px; width:20%; align:right; padding:10px;
+		 font-family: Comic Sans MS, Cursive, Sans-Serif, Times New Roman; }
+div #main1 a { color: red; font-size: 30px; text-decoration: none; }		 
 
 #main2 { background-color:rgba(255, 94, 255, 0.05); height:70px;  align:center; width:100% }
-#main2 { display:table; text-align:center; vertical-align:middle; }
-#main3 { display: table-cell; vertical-align: middle; width:40%; font-size:12px;}
+#main2 { display:table; text-align:center; vertical-align:middle; font-family: 새굴림, New Gulim; }
+#main3 { display: table-cell; vertical-align: middle; width:40%; font-size:12px; font-family: 새굴림, New Gulim;}
 div #main3 a { color: green; margin: 10px; text-decoration:none;}
 
 #main4 { display: table-cell; vertical-align: middle; width:40%;}
@@ -54,7 +55,9 @@ div #main4 a { color: green; margin: 10px; text-decoration:none;}
     border-top: 1px solid #444444;
     border-collapse: collapse;}
     
-#table1 th,td { padding:10px; text-align:left; border-bottom: 1px solid #444444;
-    padding: 10px;}
+#table1 th,td { padding:10px; text-align:left; border-bottom: 1px solid #444444; padding: 10px;}
+
+footer, .foot { background-color:rgba(255, 94, 255, 0.05); height:70px;  align:center; width:100%;} <!-- -->
 
 
+div #rank a { text-decoration:none; }

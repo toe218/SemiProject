@@ -8,7 +8,7 @@
 <style type='text/css'>
 @import url("Test.css");
 </style>
-<link rel="stylesheet" type="text/css" href="../Test.css" />
+<link rel="stylesheet" type="text/css" href="Test.css" />
 
 <meta charset="UTF-8">
 <title>메인페이지 main.jsp</title>
@@ -40,7 +40,7 @@
 
 <h1></h1>
 
-<hr>
+
 <div id="main2">
 
 <div id="main4">
@@ -51,7 +51,7 @@
  <a href ="./search.tb"><img src="MemberView/images/searchicon.jpg" width="20" height="20"> 검색</a>
 </div>
 
-<div id="main1" align="center">Real.T.B</div>
+<div id="main1" align="center"><a href="./main.tb">Real Total Beautyshop</a></div>
 
 <div id="main3"> <!-- 코드 수정 : p-> div -->
 <a href ="./login.tb"><img src="MemberView/images/loginicon.png" width="15" height="15"> 로그인</a> &nbsp;
@@ -69,11 +69,11 @@
 
 <% if (id!=null && id.equals("admin")) { %>
 
-<a href="./adminMain.tb"> 관리자 페이지 </a> &nbsp;&nbsp;
+<a href="./adminMain.tb"> <img src="MemberView/images/adminicon.png" width="15" height="15"> 관리자 페이지 </a> &nbsp;&nbsp;
 
 <%} %>
 
-<a href="logout.tb">로그아웃</a></p>
+<a href="logout.tb"><img src="MemberView/images/logouticon.png" width="15" height="15"> 로그아웃</a>  &nbsp;&nbsp;</p>
 
 
 <%
@@ -81,7 +81,7 @@
  %>
 
 
-<hr>
+<br>
 <p align="right"> 오늘 <b><%= cValue %> </b>번째 방문자입니다. </p>
 
 <!--  
@@ -138,6 +138,27 @@
 	 -->
 	
 	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
+	
+	<footer class="foot" align="center"; text-align="center";> 
+	<address> 사업자등록번호 : 221-99-50000 | 대표이사:환우영 | 사업자등록정보 확인<br/>
+	주소 : 충남 천안시 동남구 삼룡동 306-1 | 대표전화 : 1111-8888 | 팩스 : 033-888-8888 |
+	이메일 : <a href="mailto:dlwprmaks@tlfhtlfh.com">wlqdp@rlfrjdo.com</a>.<br> 
+	</address> 
+	<small>Copyright &copy; 2018 Real.T.B.</small> 
+	</footer>
+
+
 	
 	
 </body>

@@ -9,6 +9,9 @@
 <body>
 	<center>
 	<h1>검색 페이지</h1>
+	<hr>
+	<center><img src="SearchView/images/searchBack.png" width="1500" height="400"></center>
+	<hr>
 	<br/>
 	<h3>상품명으로 검색</h3>
 	<form action="./searchListAction.tb" method="post">

@@ -9,8 +9,11 @@
 <title>회사소개 페이지 intro.jsp</title>
 </head>
 <body>
-	<h1>회사소개</h1>
-	<hr/>
+	<center><h1>회사소개</h1></center>
+	<hr>
+<center><img src="IntroView/images/introBack.png" width="1500" height="400"></center>
+<hr>
+	
 	주소<br/>
 	사업자등록번호<br/>
 	대표의 말<br/>

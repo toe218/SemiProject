@@ -9,6 +9,8 @@
 <body>
 <h1 align="center">관리자 페이지</h1>
 <hr>
+<center><img src="AdminView/images/adminBack.png" width="1500" height="400"></center>
+<hr>
 <ul>
 <li><a href="#">회원목록 보기</a></li>
 <li><a href="#">회원탈퇴시키기</a></li>
