@@ -48,7 +48,7 @@
 <a href ="./ReviewList.re">후기게시판</a> &nbsp;
 <a href ="./RankingList.ra">랭킹</a>&nbsp;
 <a href ="./GoodsList.go">상품</a>&nbsp;
-<a href ="./search.tb">검색</a> 
+<a href ="./search.tb">검색</a><img src="MemberView/images/searchicon.jpg" width="20" height="20"> 
 </div>
 
 <div id="main1" align="center">Real.T.B</div>
