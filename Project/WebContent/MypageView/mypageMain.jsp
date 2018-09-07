@@ -30,10 +30,15 @@
 <%
 	} else {
  %>
+ 	<br><br><br>
  	<div align="center">
+ 
  	<p>로그인이 필요한 페이지 입니다.</p>
+ 	
  	<a href = "./login.tb">로그인</a>
+ 
  	</div>
+ 	<br>
  <%}  %>
 <center><a href = "./main.tb">메인페이지로 이동</a></center>
 </body>

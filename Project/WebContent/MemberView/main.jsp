@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
     
 <% String id = (String)session.getAttribute("id"); %>
+<% request.setCharacterEncoding("utf-8"); %>
 <!DOCTYPE html>
 <html>
 <head>

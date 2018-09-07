@@ -113,9 +113,10 @@ public class FrontController extends javax.servlet.http.HttpServlet
 				} catch(Exception e) {
 					e.printStackTrace();
 			}
-			forward = new ActionForward ();
-			forward.setRedirect(false);
-			forward.setPath("./MemberView/main.jsp");
+			forward = new ActionForward();
+			forward.setRedirect(true);;
+			forward.setPath("./main.tb");
+			
 			
 		} else if (command.equals("/mypageMain.tb")) {
 			

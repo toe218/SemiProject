@@ -130,7 +130,7 @@
 
 	<tr align="right">
 		<td colspan="5">
-	   		<a href="./ReviewWrite.re">[글쓰기]</a><a href="./main.go">[메인으로]</a>
+	   		<a href="./ReviewWrite.re">[글쓰기]</a><a href="./main.tb">[메인으로]</a>
 		</td>
 	</tr>
 </table>

@@ -159,20 +159,19 @@ public class FrontController extends javax.servlet.http.HttpServlet implements j
 				e.printStackTrace();
 			}
 				
-		}else if(command.equals("/GoodBuy.go")) {
+		}else if(command.equals("/GoodBuy.go")) { 
+			
+			action = new GoodBuyAction();
 		
-			RequestDispatcher dispatcher = request.getRequestDispatcher("./GoodsView/goodPay.jsp");
+		try {
 			
-			try {
-				
-				dispatcher.forward(request, response);
+			forward = action.execute(request, response);
 			
-			}catch(Exception e) {
-				
-				e.printStackTrace();
+		}catch(Exception e) {
 			
-			}
-				
+			e.printStackTrace();
+		}
+			
 		}else if(command.equals("/GoodPay.go")) {
 			
 			action = new GoodsPayAction();
@@ -198,7 +197,22 @@ public class FrontController extends javax.servlet.http.HttpServlet implements j
 				
 				e.printStackTrace();
 			}
+					
+		
+		}else if(command.equals("/GoodCartListPay.go")) {
+			
+			action = new GetQtyAction();
+			
+			try {
 				
+				forward = action.execute(request, response);
+			
+			}catch(Exception e) {
+				
+				e.printStackTrace();
+			
+			}
+			
 		}
 	
 		if(forward != null) {
